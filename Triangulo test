@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+float main () {
+    float altura, base, area;
+
+    printf ("digite o valor da altura");
+    scanf ("%f", &altura);
+
+   printf ("digite o valor da base");
+    scanf ("%f", &base);
+
+    area= (altura*base)/2;
+    printf ("area  %f", area);
+
+
+
+}
